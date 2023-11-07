@@ -65,6 +65,7 @@ input::placeholder {
     font-family: 'Raleway';
     font-size: 14px;
     font-weight: 600;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .background {
     margin-top: 100px;
@@ -177,4 +178,49 @@ input::placeholder {
     font-weight: 600;
     font-family: 'Raleway';
     font-size: 14px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+footer {
+    background-color: hsl(243, 87%, 12%);
+    padding: 50px;
+    padding-bottom: 80px;
+    padding-right: 200px;
+}
+.footer-logo {
+    margin-top: 50px;
+}
+.contact-p > p, .contact-p2 > p {
+    color: hsl(0, 0%, 75%);
+    font-weight: 500;
+}
+footer a {
+    color: hsl(0, 0%, 75%);
+    text-decoration: none;
+    font-weight: 500;
+}
+.footer-wraper {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-p, .contact-p2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+li {
+    margin-top: 15px;
+    list-style-type: none;
+}
+i {
+    padding: 10px;
+}
+.first-button:hover, .second-button:hover {
+    background-color: #2A7BF5;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    body {
+        display: inline-block;
+    }
+
 }
